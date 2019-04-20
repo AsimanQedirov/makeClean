@@ -1,0 +1,73 @@
+.industrie{
+    padding-bottom: 30px;
+    .headline{
+        margin: 30px 0px 40px;
+        span{
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 5px;
+        }
+    }
+    .left{
+        p{
+            color: #777;
+            font-size: 14px;
+            margin: 20px 0px;
+        }
+        img{
+            margin-right: 10px;
+        }
+        button{
+          background: transparent;
+          border:2px solid #2196f3;
+          padding: 3px 10px;
+          font-weight: 400;
+          cursor: pointer;
+          box-shadow:0 4px 0 rgba(33,150,243,0.25);
+          transition: 0.5s ease-in-out;
+          font-weight: 600;
+      }
+      button:hover{
+          border: 2px solid #f3e721;
+          box-shadow: 0 4px 0 #f3e721;
+      }
+    }
+    .right{
+      background-size: cover;
+      position: relative;
+      box-shadow: 0 0 5px rgba(0,0,0,0.15);
+      .abs{
+          position: absolute;
+          left: 10%;
+          top: 20%;
+          right: 30%;
+          text-align: left;
+          line-height: 1.5;
+          p{
+              color: #777;
+              font-style: italic;
+              font-size: 12px;
+          }
+          h5{
+              font-size: 14px;
+              margin: 15px 0px;
+          }
+          h6{
+              color: #777;
+              font-size: 11px;
+          }
+      }
+    }
+}
+ul.carousel-indicators{
+    // right: -10% !important;
+    a{
+        font-size: 12px;
+        margin: 0px 5px;
+        color: rgb(53, 52, 52);
+        cursor: pointer;
+        i{
+            border-radius: 50%;
+        }
+    }
+}

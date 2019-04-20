@@ -1,0 +1,94 @@
+.services-section{
+    background: url('../../../assets/images/page-banner.png');
+    background-repeat: no-repeat;
+    padding: 70px 0px 60px;
+    h5{
+        background: hsl(207, 71%, 53%);
+        padding: 10px 24px;
+        font-size: 15px;
+        vertical-align: middle;
+        color: white;
+        font-weight: 600;
+    }
+    .bef-af{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .bef-af::before{
+        content: url('../../../assets/images/page-title-before.png');
+        left: -10%;
+    }
+    .bef-af::after{
+        content: url('../../../assets/images/page-title-after.png');
+    }
+    p{
+        color: white;
+        font-weight: 600;
+    }
+}
+.weoffer{
+    padding: 30px 0px;
+    .w{
+        width: 280px;
+        position: relative;
+        background-color: white !important;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 1px;
+        border: 0.02em solid rgb(226, 226, 226);
+       margin-left: 75px;
+        img{
+            border-radius: 50%; 
+            position: absolute;
+            top: 0%;
+            left: -40%;
+        }
+        h4{
+            font-size: 15px;
+            margin: 5px 0px 10px;
+        }
+        p{
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 20px; 
+        }
+        a{
+            border:1px solid #2196f3;
+            background: #2196f3;
+            padding: 6px 22px;
+            color: white;
+            font-size: 12px;
+            letter-spacing: 1px;
+            transition: 0.5s ease;
+        }
+        a:hover{
+            text-decoration: none;
+            background: #f3e721;
+            border: 1px solid #f3e721;
+            color: white;
+        }
+    }
+}
+.areaservices{
+    background: url('../../../assets/images/call-out.jpg');
+    padding: 60px 0px 80px;
+    img{
+        border: 1px solid #f3e721;
+        padding:14px 20px;
+        z-index: 5;
+        border-radius: 50%;
+    }
+    h5{
+        color: #2196f3;
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+    p{
+        color: #777;
+        margin-bottom: 0px; 
+    }
+    span{
+        color: black;
+        margin-top: 0px !important;
+    }
+}

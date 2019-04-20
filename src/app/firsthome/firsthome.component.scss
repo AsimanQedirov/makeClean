@@ -1,0 +1,109 @@
+#carouselExampleIndicators{
+    position: relative;
+}
+ol{
+    li{
+        width: 20px;
+        height: 5px;
+        border: 1px dashed white;
+        border-radius: 9px;
+        background: transparent;
+    }
+    li.active{
+       
+        background: white;;
+    }
+}
+.carousel-control-prev,.carousel-control-next{
+    .carousel-control-prev-icon{
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        left: 2%;
+    }
+    .carousel-control-next-icon{
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        right: 2%;
+    }
+}
+.carousel-item{
+    position: relative;
+        h2{
+            position: absolute;
+            left: 5%;
+            top: 10%;
+        }
+}
+
+    #visible1{
+        color: #1e4763;
+        padding-left: 20px;
+    }   
+    #visible2{
+        color: #1e4763;
+        padding-left: 9px;
+    }   
+    #visible3{
+        color: #1e4763;
+        padding-left: 9px;
+    }   
+
+    .changed{
+        color: rgb(224, 147, 147) !important;
+    }
+
+form{
+        position: absolute;
+        bottom: 2%;
+        left: 5%;
+        z-index: 1000;
+        width: 380px;
+        h4{
+            text-align: center;
+            background: url('../../assets/images/contact-heading.png');
+            padding: 20px 0px 6px;
+            font-size: 18px;
+            font-weight: 600;
+            span{
+                color: rgba(0,0,0,0.5);
+            }
+        }
+   
+    background: #1e4763;
+    input{
+        border-radius: none !important;
+        border: 3px solid #576672;
+        background: #2d404f;
+        // margin: 5px 0px;
+        
+    }
+    textarea{
+        background: #2d404f;
+        border: 3px solid #576672;
+    }
+    input::placeholder,textarea::placeholder{
+        color: white !important;
+        font-size: 14px !important;
+    }
+    button{
+        border: 2px solid gray;
+        background: white;
+        padding: 8px 18px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #576672;
+        margin: 4px 0px;
+    }
+}
+// nzdm,n
+#owl-demo .item {
+    margin: 3px;
+  }
+  
+  #owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

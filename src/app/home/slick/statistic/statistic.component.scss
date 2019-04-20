@@ -1,0 +1,19 @@
+.statistic{
+    background-image: url('../../../../assets/images/static-bg.png');
+    padding: 50px 0px;
+    span{
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+    hr{
+        visibility: hidden;
+        margin: 0px !important;
+    }
+    p{
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

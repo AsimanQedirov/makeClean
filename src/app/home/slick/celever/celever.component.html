@@ -1,0 +1,40 @@
+<div class="clever-stafs container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../../assets/images/sep-icon.png" alt="">
+        <span>CLEVER STAFFS</span>
+        <p>Totam rem aperiam, eaque ipsa quae inventore veritatis et quasi architect beatae vitae dicta sunt expleo.
+          nemo enim ipsam voluptatem quia.</p>
+        <button class="before"><i class="fas fa-chevron-left"></i></button>
+        <button class="after"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="col-lg-8">
+        <!-- Inside the containing div, add one div for each slide -->
+        <div class="team">
+            <div *ngFor="let inf of info" class="forpad images">
+                <div class="c mx-lg-2">
+                  <img [src]="inf.img" alt="" class="hostover">
+                  <div class="absolute" (mouseenter)="onMouseEnter(f)" (mouseleave)="onMouseLeave(f)" #f>
+                    <div class="text-center">
+                      <p class="text-center ccc"> <img src="../../../assets/images/zoom.png" alt=""></p>
+                      <h5 class="name">BENFAMIN THOMAS</h5>
+                      <hr>
+                    </div>
+                    <h6 class="text-center">Office Cleaner</h6>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="image col-lg-2 col-sm-12 col-xs-12" *ngFor="let inf of serviceInformation">
+  <div class="l">
+    <img [src]="inf.img" alt="">
+    <h4>{{inf.header}}</h4>
+    <p class="text-center"> <a href="#">VIEW DETAILS</a></p>
+  </div>
+</div> -->

@@ -1,0 +1,48 @@
+.welcome{
+    padding: 50px 0px;
+    h4{
+        font-size: 18px;
+        color: rgb(22, 22, 22);
+        line-height: 10px;
+    }
+    .information{
+        color: #777;
+        font-size: 14px;
+        margin: 20px 0px 32px;
+        line-height: 1.8;
+    }
+    button{
+        background: transparent;
+        border:2px solid #2196f3;
+        padding: 3px 10px;
+        margin: 0px 3px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow:0 4px 0 rgba(33,150,243,0.25);
+        transition: 0.5s ease-in-out;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    button:hover{
+        border: 2px solid #f3e721;
+        box-shadow: 0 4px 0 #f3e721;
+    }
+    .row:last-child{
+        margin: 60px 0px 0px;
+        div{
+            padding-left: 0px !important;
+            h5{
+                font-size: 15px;
+                margin: 15px 0px;
+                color: rgb(36, 35, 35);
+            }
+            p{
+                color: #777;
+                font-size: 14px;
+                line-height: 1.4;
+            }
+        }
+        
+    }
+}
+

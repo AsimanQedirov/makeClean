@@ -1,0 +1,29 @@
+.about-section{
+    background: url('../../assets/images/page-banner.png');
+    background-repeat: no-repeat;
+    padding: 70px 0px 60px;
+    h5{
+        background: hsl(207, 71%, 53%);
+        padding: 10px 24px;
+        font-size: 15px;
+        vertical-align: middle;
+        color: white;
+        font-weight: 600;
+    }
+    .bef-af{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .bef-af::before{
+        content: url('../../assets/images/page-title-before.png');
+        left: -10%;
+    }
+    .bef-af::after{
+        content: url('../../assets/images/page-title-after.png');
+    }
+    p{
+        color: white;
+        font-weight: 600;
+    }
+}

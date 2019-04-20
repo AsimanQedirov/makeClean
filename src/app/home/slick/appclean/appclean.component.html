@@ -1,0 +1,40 @@
+<div class="appclean container-fluid">
+  <div class="container pt-lg-3">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-left">
+        <h3>MAKE CLEAN ON APP, TOO!</h3>
+        <span><img src="../../../../assets/images/app-heading.png" alt=""></span>
+        <h6>Schedule Your Emergency & Get Your Free Estimates via on our Mobile App.</h6>
+        <p>Save the most every time! get offer notifications with our popular Browser App and save on the go with our
+          awesome Mobile App! it’s Available on the App store and Google Play. Use it Everywhere!</p>
+        <section>
+          <a href="."><img src="../../../../assets/images/app-store.png" alt=""></a>
+          <a href="."><img src="../../../../assets/images/google-play.png" alt=""></a>
+        </section>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+        <img src="../../../../assets/images/iphone.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid client-partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 text-left">
+        <img src="../../assets/images/sep-icon.png" alt="">
+        <span>CLIENTS & PARTNERS</span>
+      </div>
+      <div class="col-lg-6 text-right">
+        <button class="evvel"><i class="fas fa-chevron-left"></i></button>
+        <button class="sonra"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+      <div class="partnerImages">
+        <div *ngFor="let partner of partners" class="partnerParent">
+          <div class="partnerOutline">
+            <img [src]="partner" alt="">
+          </div> <!-- end image -->
+        </div>
+    </div> <!-- end content -->
+</div>

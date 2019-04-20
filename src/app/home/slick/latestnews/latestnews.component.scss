@@ -1,0 +1,109 @@
+.latest{
+    padding:50px 0px 10px;
+    background: #f7f9fb;
+    span{
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 5px;
+    }
+  button:first-child{
+      font-size: 14px;
+      background: transparent;
+      border:2px solid #2196f3;
+      padding: 4px 12px;
+      font-weight: 400;
+      cursor: pointer;
+      box-shadow:0 4px 0 rgba(33,150,243,0.25);
+      transition: 0.5s ease-in-out;
+      font-weight: 600;
+  }
+  button:first-child:hover{
+      border: 2px solid #f3e721;
+      box-shadow: 0 4px 0 #f3e721;
+  }
+  .pad-pad{
+      padding: 70px 0px 10px;
+  }
+  .blogdiv{
+      width: 100%;
+        .box-1{
+           background-color: white !important; 
+           box-shadow: 0 0 5px rgba(0,0,0,0.15);
+            float: left;
+            padding-top: 20px;
+            padding-right: 20px;
+            border-radius: 3px;
+            padding-bottom: 0px !important;
+            padding-left: 30px !important;
+            width: 50%;
+             a:first-child{
+                 color:rgb(31, 31, 31);
+                 font-size: 14px;
+                 font-weight: 600;
+                 :hover{
+                     color: black;
+                 }
+             }   
+             .link-p{
+                 color: #777;
+                 font-size: 12px;
+                 margin-top: 10px;
+                 a{
+                     color: #2196f3 !important;
+                     font-weight: 500 !important;
+                     font-size: 12px;
+                 }
+             }
+             .only-p{
+              color: #777;
+              font-size:13px;
+              margin-bottom: 20px;
+             }
+             .ohno{
+                 border: none;
+                 color: white;
+                 font-size: 12px;
+                 font-weight: 500;
+                 padding: 8px 12px;
+                 background: #2196f3;
+                 margin-bottom: 0px !important;
+                 transition: 0.4s ease;
+             }
+             .ohno:hover{
+              color: white;
+              background: #f3e721;
+             }
+        }   
+        .box-2{
+            float: right;
+            position: relative;
+            top:-30px;
+            img{
+                max-width: 100%;
+            }
+            .absolute-message{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                display: inline-block;
+                  .message{
+                      background: #2196f3;
+                      padding: 8px 15px;
+                      margin-bottom: 0px !important;
+                      i{
+                          color: white;
+                          font-size: 15px;
+                      }
+                  }
+                  .message-date{
+                      background: #f3e721;
+                      color: black;
+                      font-size: 13px;
+                      margin-bottom: 0px !important;
+                      padding: 12px 10px;
+                      font-weight: 500;
+                  }
+            }
+        }
+  }
+}

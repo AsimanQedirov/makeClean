@@ -1,0 +1,62 @@
+.appclean{
+    h3{
+        font-size: 28px;
+        color: #2196f3;
+        letter-spacing: 2px;
+        margin: 20px 0 5px;
+    }
+    span{
+        margin-bottom: 20px;
+    }
+    h6{
+        color: #232323;
+        margin-bottom: 25px;
+        font-weight: 400;
+    }
+    p{
+        color: #777;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    section{
+        a{
+            margin: 0px 5px;
+        }
+    }
+}
+.client-partners{
+    padding: 40px 0px;
+    span{
+        font-size: 19px;
+        color: rgb(24, 24, 24);
+        font-weight: 600;
+        margin-left: 5px;
+    }
+    button{
+        background: transparent;
+        border:2px solid #2196f3;
+        padding: 3px 10px;
+        margin: 0px 3px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow:0 4px 0 rgba(33,150,243,0.25);
+        transition: 0.5s ease-in-out;
+    }
+    button:hover{
+        border: 2px solid #f3e721;
+        box-shadow: 0 4px 0 #f3e721;
+    }
+    .partnerImages{
+        padding: 30px 0px;
+    }
+    .partnerOutline{
+        opacity: 0.5;
+        transition: 0.8s ease;
+    }
+    .partnerParent:focus{
+        outline: none !important;
+    }
+    .partnerOutline:hover{
+        opacity: 1;
+    }
+}

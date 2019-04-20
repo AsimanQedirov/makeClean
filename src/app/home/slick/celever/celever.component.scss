@@ -1,0 +1,89 @@
+.clever-stafs{
+    background: #f7f9fb;
+    padding: 60px 0px;
+    span{
+        font-size: 17px;
+        color: rgb(24, 24, 24);
+        font-weight: 600;
+        margin-left: 5px;
+    }
+    p{
+        color: #777;
+        font-size: 15px;
+        text-align: left;
+        margin: 45px 0px 35px;
+        line-height: 1.8;
+    }
+    button{
+        background: transparent;
+        border:2px solid #2196f3;
+        padding: 3px 10px;
+        margin: 0px 3px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow:0 4px 0 rgba(33,150,243,0.25);
+        transition: 0.5s ease-in-out;
+    }
+    button:hover{
+        border: 2px solid #f3e721;
+        box-shadow: 0 4px 0 #f3e721;
+    }
+}
+.forpad{
+    .absolute{
+     //    display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 1000;
+        width: 100%;
+        height: 70%;
+        cursor: pointer;
+        border: 3px solid #f3e721;
+        background: #2196f3;
+        transition: 0.5s ease;
+        opacity: 0;
+         .ccc{
+                 text-align: center;
+                 margin-bottom: 10px;
+         }
+        img{
+         display: inline-block;
+            width: 35px;
+        }
+        h5{
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        hr{
+            width: 18%;
+            height: 4px;
+            border-radius: 3px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background: #f3e721;
+        }
+        h6{
+            color: white;
+            font-size: 14px;
+        }
+    }
+ }
+.c{
+        margin: 0 auto;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .hoverclass{
+            height: 100% !important;
+            opacity: 0.8 !important;
+        }
+    }
+    .images:focus {
+        outline: none !important;
+    }
+    .images{
+        margin: 0px 10px;
+    }

@@ -1,0 +1,70 @@
+.service-offer{
+    padding-bottom: 40px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 85%,rgba(132, 251, 63, 0.1) 100%);
+    span{
+        color: rgb(47, 47, 47);
+        font-weight: 600;
+        font-size:19px;
+        padding-left: 7px;
+    }
+    button{
+        background: transparent;
+        border:2px solid #2196f3;
+        padding: 3px 10px;
+        margin: 0px 3px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow:0 4px 0 rgba(33,150,243,0.25);
+        transition: 0.5s ease-in-out;
+    }
+    button:hover{
+        border: 2px solid #f3e721;
+        box-shadow: 0 4px 0 #f3e721;
+    }
+}
+
+.around{
+    padding: 50px 0px;
+}
+.image{
+    outline: none;
+}
+.w{
+    width: 280px;
+    position: relative;
+    background-color: white !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    border: 0.02em solid rgb(226, 226, 226);
+   margin-left: 75px;
+    img{
+        border-radius: 50%; 
+        position: absolute;
+        top: 0%;
+        left: -40%;
+    }
+    h4{
+        font-size: 15px;
+        margin: 5px 0px 10px;
+    }
+    p{
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 20px; 
+    }
+    a{
+        border:1px solid #2196f3;
+        background: #2196f3;
+        padding: 6px 22px;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px;
+        transition: 0.5s ease;
+    }
+    a:hover{
+        text-decoration: none;
+        background: #f3e721;
+        border: 1px solid #f3e721;
+        color: white;
+    }
+}

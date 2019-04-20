@@ -1,0 +1,29 @@
+<div class="service-offer container-fluid">
+  <div class="container">
+    <div class="row py-lg-4">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="../../assets/images/sep-icon.png" alt="">
+        <span>SERVICE WE OFFER</span>
+      </div>
+      <div class="col-lg-3 offset-lg-6 col-md-4 offset-md-4 col-sm-6">
+        <p style="text-align:center;">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </p>
+      </div>
+    </div>
+    <div class="container pb-lg-4 around">
+      <div class="content">
+        <div class="slider row">
+          <div class="image col-lg-2 col-sm-12 col-xs-12" *ngFor="let inf of serviceInformation">
+            <div class="l">
+              <img [src]="inf.img" alt="">
+              <h4>{{inf.header}}</h4>
+              <p class="text-center"> <a href="#">VIEW DETAILS</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
